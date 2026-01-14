@@ -10,13 +10,13 @@ Fog vs non-fog image classification using a fixed CNN architecture and VGG-16 tr
 - **Classes**:
   - `0` – Non-foggy  
   - `1` – Foggy  
-- **Additional metadata (Excel file)**:
+- **Additional metadata**:
   - `date_time` – Timestamp of image  
   - `visibility` – Visibility value at 10-minute intervals  
   - `status` – Fog (1) / No fog (0)  
   - `category` – Fog intensity (0–5, not used in this work)  
 - **Sampling interval**: Every 10 minutes  
-- **Months used**: November, December, January, February  
+- **Months used**: November, December, January, February (to reduce seasonal imbalance)
 
 ---
 
